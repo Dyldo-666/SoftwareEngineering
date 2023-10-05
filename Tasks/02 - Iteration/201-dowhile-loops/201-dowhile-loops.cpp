@@ -11,7 +11,7 @@ int main()
         printf("i = %d\n", i);
         i = i + 1;              // Alternatively, write i++;
     } while (i < 5);            //Repeat if condition is met
-
+                                // Do while Loop will Loop through at least once before it leaves the loop.
     printf("Finished: i = %d\n", i);
 }
 
