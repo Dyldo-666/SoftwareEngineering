@@ -15,3 +15,7 @@ int main()
     printf("Exiting with i=%d\n", i);
 }
 
+//Task 3: The loop will repeat 5 times
+//Task 4: The loop exits when i = 5 
+//Change i = 6 
+//Task 5: The loop will exit straight away when i = 6 so will loop through once
