@@ -10,7 +10,7 @@ int main()
     {
         printf("i = %d\n", i);
         i = i - 1;              // Alternatively, write i++;
-    } while (i >= 0);            //Repeat if condition is met
-
+    } while (i >= 0);           //Repeat if condition is met
+                                // same as dowhile-loops but the int i decreases
     printf("Finished: i = %d\n", i);
 }
