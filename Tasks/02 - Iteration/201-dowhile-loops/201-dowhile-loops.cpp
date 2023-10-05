@@ -15,7 +15,7 @@ int main()
     printf("Finished: i = %d\n", i);
 
 
-     int i = 6;
+     int i = 5;
 
      printf("Start of Descending while loop\n");
 
