@@ -57,5 +57,7 @@ int main()
 
     //Write task 2 solution here
         float mean = float(sum) / float(N);
-        cout << "The Mean is = " << mean << endl;
+        cout.precision(1);
+        cout << "The Mean is = " << std::fixed << mean << endl;
      
+}
