@@ -50,7 +50,7 @@ int main()
         cout << "Redirecting you now" << endl;
         redirect(220);
         break;
-    default
+        default:
         // Defensive coding! Catch the unexpected - in theory, this code cannot be reached
         cerr << "Error - invalided variable" << endl;
     }
