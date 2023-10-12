@@ -28,27 +28,29 @@ int main()
         cin >> selection;
     } while ((selection < 0) || (selection > 4)); // Repeat until a valid number is entered
 
-    // Mutuallly Exclusive Decision Pathway
-    if (selection == 0)
+
+    int mySelection;
+    cin >> mySelection; // START OF SWITCH CASE
+
+    switch (mySelection) //Expression is an integer or char variable
     {
+    CASE 0:
         cout << "9 to 5, Monday to Saturday. 10 to 4 on Sundays and Bank Holidays" << endl;
-    }
-    else if (selection == 1)                       
-    {
+        break;
+    CASE 1: 
         cout << "Redirecting you now" << endl;
         redirect(100);
-    }
-    else if (selection == 2)
-    {
+        break;
+    CASE 2: 
         cout << "Sorry - you will need to come to the store for that." << endl;
         hangup();
-    }
-    else if ((selection == 3) || (selection == 4)) {
+        break;
+    CASE 3:
+    CASE 4:
         cout << "Redirecting you now" << endl;
         redirect(220);
-    } 
-    else 
-    {
+        break;
+    default
         // Defensive coding! Catch the unexpected - in theory, this code cannot be reached
         cerr << "Error - invalided variable" << endl;
     }
