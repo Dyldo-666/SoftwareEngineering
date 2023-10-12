@@ -36,22 +36,23 @@ int main()
         cout << "Element " << n << " of nums = " << nums[n] << endl;
     }
 
-
-
     // **************************************************************************
     // TASK 1 - calculate and display the SUM of all elements in the array nums *
     // **************************************************************************
-
+   
     //Write task 1 solution here
-    int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
-
-
+     for (unsigned int n = 0; n < N; n++) {
+        int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
+        int numbers= numbers + nums[n] - 1;
+        int next = nums[n];                                             //Read by de-referencing
+        cout << "sum of all elements so far is " << numbers << endl; // writes to ter
+    
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
 
     //Write task 2 solution here
-
+        float mean = float(numbers) / float(n);
+        cout << "The Mean is = " << mean << endl;
+     }
 }
-
-
