@@ -47,3 +47,7 @@ int main()
     }
 
 }
+
+// Question 1: The code makes you retype the number as it isnt inside the accepted parramaters
+// Question 2: Input (101) is not handled correctly due to the fact that in the do-while statement
+            // It doesnt have an upperbound statement for example: while ((level < 0) || (level > 100))
